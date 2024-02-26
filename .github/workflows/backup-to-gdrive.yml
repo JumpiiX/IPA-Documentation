@@ -18,4 +18,4 @@ jobs:
       with:
         credentials: ${{ secrets.GOOGLE_DRIVE_SERVICE_ACCOUNT_CONFIG }}
         folderId: "1gd_6inwVqvdatgAI4Yb31TtHNMHcEiV9" 
-        filename: "test.docx"  
+        filename: "Dokumentation.docx"  
