@@ -1,0 +1,21 @@
+name: Backup to Google Drive
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest 
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2 
+
+    - name: Upload to Google Drive
+      uses: adityak74/google-drive-upload-git-action@v0.3
+      with:
+        credentials: ${{ secrets.GOOGLE_DRIVE_SERVICE_ACCOUNT_CONFIG }}
+        folderId: "1gd_6inwVqvdatgAI4Yb31TtHNMHcEiV9" 
+        filename: "test.docx"  
