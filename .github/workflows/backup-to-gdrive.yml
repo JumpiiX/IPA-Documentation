@@ -13,9 +13,16 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2 
 
-    - name: Upload to Google Drive
+    - name: Upload Word Document to Google Drive
       uses: adityak74/google-drive-upload-git-action@v0.3
       with:
         credentials: ${{ secrets.GOOGLE_DRIVE_SERVICE_ACCOUNT_CONFIG }}
         folderId: "1gd_6inwVqvdatgAI4Yb31TtHNMHcEiV9" 
         filename: "Dokumentation.docx"  
+
+    - name: Upload Excel Document to Google Drive
+      uses: adityak74/google-drive-upload-git-action@v0.3
+      with:
+        credentials: ${{ secrets.GOOGLE_DRIVE_SERVICE_ACCOUNT_CONFIG }}
+        folderId: "1gd_6inwVqvdatgAI4Yb31TtHNMHcEiV9" 
+        filename: "IPA-Zeitplan.xlsx"  
