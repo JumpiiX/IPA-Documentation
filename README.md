@@ -1,4 +1,4 @@
-## IPA-Dokumentation
+## IPA Documentation
 
 This repository serves as a version control system for my IPA documentation, which takes place from February 29th to March 18th.
 
