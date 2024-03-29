@@ -1,15 +1,15 @@
 ## IPA-Dokumentation
 
-Dieses Repository dient als Versionsverwaltungssystem für meine IPA-Dokumentation, die vom 29. Februar bis zum 18. März stattfindet.
+This repository serves as a version control system for my IPA documentation, which takes place from February 29th to March 18th.
 
-## Zweck
+## Purpose
 
-Die IPA-Dokumentation (Individuelle Praktische Arbeit) ist ein wichtiger Bestandteil meiner Ausbildung/Projekts und wird in diesem Repository verwaltet. Hier können Änderungen verfolgt, kommentiert und überprüft werden, um eine transparente und konsistente Entwicklung der Dokumentation sicherzustellen.
+The IPA documentation (Individuelle Praktische Arbeit - Individual Practical Work) is an essential part of my graduation as an application developer. It is managed in this repository, where changes can be tracked, commented on, and reviewed to ensure a transparent and consistent development of the documentation.
 
-## Automatisches Backup-System
+## Automatic Backup System
 
-Ein automatisches Backup-System wurde eingerichtet, um sicherzustellen, dass keine Daten verloren gehen. Jedes Mal, wenn Änderungen auf den `master`-Branch gepusht werden, wird eine Sicherung der aktuellen Version der Dokumentation auf meinem Google Drive-Ordner erstellt.
+An automatic backup system has been set up to ensure that no data is lost. Every time changes are pushed to the master branch, a backup of the current version of the documentation is created in my Google Drive folder.
 
-### Hinweis:
+### Note:
 
-- Das Backup-System verwendet ein Google-Dienstkonto mit entsprechenden Zugriffsrechten auf meinen Google Drive-Ordner. Der Zugriff erfolgt über einen privaten Schlüssel, der als GitHub-Secret gespeichert ist.
+The backup system uses a Google service account with appropriate access rights to my Google Drive folder. Access is granted via a private key, which is stored as a GitHub Secret.
