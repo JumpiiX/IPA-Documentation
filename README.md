@@ -4,7 +4,7 @@ This repository serves as a version control system for my IPA documentation, whi
 
 ## Purpose
 
-The IPA documentation (Individuelle Praktische Arbeit - Individual Practical Work) is an essential part of my graduation as an application developer. It is managed in this repository, where changes can be tracked, commented on, and reviewed to ensure a transparent and consistent development of the documentation.
+The IPA documentation (Individuelle Praktische Arbeit) is an essential part of my graduation as an application developer. It is managed in this repository, where changes can be tracked, commented on, and reviewed to ensure a transparent and consistent development of the documentation.
 
 ## Automatic Backup System
 
